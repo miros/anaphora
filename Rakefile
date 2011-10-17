@@ -17,10 +17,11 @@ Jeweler::Tasks.new do |gem|
   gem.name = "anaphora"
   gem.homepage = "http://github.com/miros/anaphora"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Anaphora monad for ruby}
+  gem.description = %Q{Anaphora monad for ruby}
   gem.email = "mirosm@mirosm.ru"
   gem.authors = ["miros"]
+  gem.files.exclude "spec/**/*"
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
