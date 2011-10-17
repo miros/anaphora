@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.email = "mirosm@mirosm.ru"
   s.extra_rdoc_files = [
     "LICENSE.txt",
-    "README.rdoc"
+    "README.md"
   ]
   s.files = [
     ".document",
@@ -23,9 +23,10 @@ Gem::Specification.new do |s|
     "Gemfile",
     "Gemfile.lock",
     "LICENSE.txt",
-    "README.rdoc",
+    "README.md",
     "Rakefile",
     "VERSION",
+    "anaphora.gemspec",
     "lib/anaphora.rb"
   ]
   s.homepage = "http://github.com/miros/anaphora"
