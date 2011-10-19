@@ -20,7 +20,7 @@ module Anaphora
     end
 
     def method_missing(name, *args, &block)
-      return self if name == :respond_to? && args.first == :to_proc
+      return true if name == :respond_to? && args.first == :to_proc
       @methods << MethodInvocation.new(name, args, block)
       self
     end
