@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "anaphora"
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["miros"]
-  s.date = "2011-10-17"
+  s.date = "2011-10-19"
   s.description = "Anaphora monad for ruby"
   s.email = "mirosm@mirosm.ru"
   s.extra_rdoc_files = [
